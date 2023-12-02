@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.Logo img{
+    width: 33%;
+    border:3px solid black;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+   align-items: center;
+   justify-items: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+}
+.navlist{
+    width: 50%;
+    display: flex;
+    
+    }
+    .navlist a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    }
+    .navlist a:hover{
+    color: grey;
+    }
+    .navlist li{
+        list-style: none;
+        padding: 23px;
+    }
+    .rightnav{
+        width: 50%;
+        text-align: right;
+        padding: 13px;
+    }
+    #search{
+        padding: 5px;
+        font-size: 17px;
+        border:2px solid grey;
+    }
+    .background{
+        background: rgba(0,0,0,0.7)url(images/people.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+    }
+    .main{
+    color: aliceblue;
+    padding: 11px 99px
+     }
+     .textbig{
+        font-size: 30px;
+    }
+#hov:hover{
+    color: rgb(132, 6, 250);
+}
